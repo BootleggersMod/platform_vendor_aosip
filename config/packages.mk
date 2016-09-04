@@ -7,6 +7,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     audio_effects.conf \
     Basic \
+    CalendarWidget \
     Eleven \
     Gallery2 \
     LatinIME \
