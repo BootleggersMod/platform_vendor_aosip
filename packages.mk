@@ -9,7 +9,6 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     Calculator \
     CalendarWidget \
-    Gallery2 \
     LatinIME \
     LiveWallpapersPicker \
     LockClock \

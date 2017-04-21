@@ -1,8 +1,8 @@
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
 # Generic product
-PRODUCT_NAME := AOSIP
-PRODUCT_BRAND := AOSIP
+PRODUCT_NAME := AOSiP
+PRODUCT_BRAND := AOSiP
 PRODUCT_DEVICE := generic
 
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -111,3 +111,4 @@ PRODUCT_PROPERTY_OVERRIDES += persist.sys.recovery_update=false
 $(call inherit-product-if-exists, vendor/extra/product.mk)
 $(call inherit-product-if-exists, vendor/aosip/packages.mk)
 $(call inherit-product-if-exists, vendor/aosip/config/common_versions.mk)
+$(call inherit-product-if-exists, vendor/bootleggers/booty.mk)
